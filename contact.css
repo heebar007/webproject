@@ -1,0 +1,82 @@
+/* CONTACT PAGE STYLES */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-image: url('images/backgroundwok.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Contact Form Styling */
+.contact-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #ccc;
+}
+
+.contact-form button {
+  background-color:  #330303;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color:  #774444;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .contact-form {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
